@@ -131,3 +131,7 @@ Jub
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 
 ## My Projects
+
+| Title             | Purpose                                   | Link        |
+| ----------------- | ----------------------------------------- | ----------- |
+| My Resume Project | A Project to use html to create a resume. | Jigaboo.com |
