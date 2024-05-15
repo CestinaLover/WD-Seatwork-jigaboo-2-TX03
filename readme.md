@@ -9,7 +9,7 @@
     <img src="./assets/img/jemoepeps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Resume ng Master Jigaboo</h3>
+  <h3 align="center">GITHUB ng Master Jigaboo</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
