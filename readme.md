@@ -1,5 +1,3 @@
-!html doc
-
 <a name="readme-top"/>
 
 <br/>
@@ -50,6 +48,11 @@
     </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+  </ol>
+  <ol>
+  li>
+      <a href="#my-projects">My Projects</a>
     </li>
   </ol>
 </details>
@@ -126,3 +129,5 @@ Jub
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+## My Projects
