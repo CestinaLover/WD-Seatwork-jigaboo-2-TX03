@@ -131,6 +131,6 @@ Jub
 
 ## My Projects
 
-| Title             | Purpose                                   | Link                                        |
-| ----------------- | ----------------------------------------- | ------------------------------------------- |
-| My Resume Project | A Project to use html to create a resume. | <a href="http://127.0.0.1:5500/index.html"> |
+| Title             | Purpose                                   | Link                             |
+| ----------------- | ----------------------------------------- | -------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | http://127.0.0.1:5500/index.html |
