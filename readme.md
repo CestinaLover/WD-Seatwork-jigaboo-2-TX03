@@ -1,26 +1,29 @@
+!html doc
+
 <a name="readme-top"/>
 
 <br/>
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/CestinaLover/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/jemoepeps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Resume ng Master Jigaboo</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome to my website fellow jigaboos!.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=CestinaLover/WD-Seatwork-jigaboo-2-TX03)
 
 ---
 
@@ -56,25 +59,36 @@
 ## Overview
 
 <!-- TODO: To be changed -->
+
 Description of the project in details.
 
 Guiding Question:
-- What is the project
+
+- What is the project?
+  The Project is for the sake of my grades huhu, god help me.
 - Whats the purpose
 - What are key components
 - What technology used and how it is used
 
 ### Key Components
+
 <!-- TODO: List of Key Components -->
 
+Jigaboo magic
+
 ### Technology
+
 <!-- TODO: List of Technology Used -->
+
+POCO phone na nanakaw
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules and Principles
-1. Always use ***WD-*** in the Title of the Project for the Subject
+
+1. Always use **_WD-_** in the Title of the Project for the Subject
 2. Do not rename any .html files; always use 'index.html' as the filename.
 3. File Structure to follow
 
@@ -104,6 +118,11 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
+
+Jimbo
+Gina
+Jub
+
+| Title        | Purpose                                                                       | Link          |
+| ------------ | ----------------------------------------------------------------------------- | ------------- |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
