@@ -125,19 +125,18 @@ Jimbo
 Gina
 Jub
 
-| Title             | Purpose                                                                       | Link                             |
-| ----------------- | ----------------------------------------------------------------------------- | -------------------------------- |
-| Sample Title      | Sample purpose would be here like this and this is the example of what it is. | trykolang.com                    |
-| My Resume Project | A Project to use html to create a resume.                                     | http://127.0.0.1:5500/index.html |
-| NONE              | NONE                                                                          | NONE                             |
-| NONE              | NONE                                                                          | NONE                             |
-| NONE              | NONE                                                                          | NONE                             |
+| Title        | Purpose                                                                       | Link          |
+| ------------ | ----------------------------------------------------------------------------- | ------------- |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| NONE         | NONE                                                                          | NONE          |
+| NONE         | NONE                                                                          | NONE          |
+| NONE         | NONE                                                                          | NONE          |
 
 ## My Projects
 
-| Title | Purpose | Link |
-| ----- | ------- | ---- |
-| NONE  | NONE    | NONE |
-| NONE  | NONE    | NONE |
-| NONE  | NONE    | NONE |
-| NONE  | NONE    | NONE |
+| Title             | Purpose                                   | Link                             |
+| ----------------- | ----------------------------------------- | -------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | http://127.0.0.1:5500/index.html |
+| NONE              | NONE                                      | NONE                             |
+| NONE              | NONE                                      | NONE                             |
+| NONE              | NONE                                      | NONE                             |
