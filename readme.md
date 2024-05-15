@@ -49,12 +49,11 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
-  </ol>
-  <ol>
-  <li>
+    <li>
       <a href="#my-projects">My Projects</a>
     </li>
   </ol>
+
 </details>
 
 ---
