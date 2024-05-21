@@ -134,9 +134,9 @@ Jub
 
 ## My Projects
 
-| Title             | Purpose                                   | Link                             |
-| ----------------- | ----------------------------------------- | -------------------------------- |
-| My Resume Project | A Project to use html to create a resume. | http://127.0.0.1:5500/index.html |
-| NONE              | NONE                                      | NONE                             |
-| NONE              | NONE                                      | NONE                             |
-| NONE              | NONE                                      | NONE                             |
+| Title             | Purpose                                   | Link                                                       |
+| ----------------- | ----------------------------------------- | ---------------------------------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/ |
+| NONE              | NONE                                      | NONE                                                       |
+| NONE              | NONE                                      | NONE                                                       |
+| NONE              | NONE                                      | NONE                                                       |
