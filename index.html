@@ -39,6 +39,11 @@
             color: #fff;
         }
 
+        .container iframe {
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    overflow: hidden; /* Ensures content inside the rounded corners is clipped */
+}
+
         .tiles {
             display: flex;
             justify-content: space-around;
@@ -129,6 +134,12 @@
         .sidebar-toggle {
             cursor: pointer;
         }
+
+        .container .highlight {
+    background-color: lightblue;
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    padding: 5px; /* Add padding for spacing inside the rounded box */
+}
 
         @keyframes fadeIn {
             from {
@@ -225,16 +236,23 @@
     <div class="container" id="my-schoolworks">
         <h2>My Schoolworks</h2>
         <p>This is just a bunch of my schoolworks, it is mostly coding but yeah, feel free to look around!:)))</p>
-        <object width="100%" height="650" type="application/pdf" data="assets\pdfs\Damaso_TSA_1.pdf" width="500" height="375" type="application/pdf"></object>
+        <h3><span class="highlight">Digital Illustration - TSA 1 character design</span></h3>
+        <iframe src="https://drive.google.com/file/d/1P17h-Kz2xFbVUwlDfSAysW8yu5T-YYZe/preview" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+        <h3><span class="highlight">Data Structures - TA1</span></h3>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQIYvuVGvDZL-0JAotYNsqceVXBHAlIkKTX7E5MtVpjd9TIhLxE236tRaQNxZ4c5lPjEb-M6ZAjdmSh/pub?embedded=true" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+        <h3><span class="highlight">Data Structures - TA2</span></h3>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRHZzAmSnyGt034-ABEPjPLa_HP3QMUyDmPKw9dHtotRWnDyCQ6dpAaQ_1nUB4IgkMvJK724G65ZW5z/pub?embedded=true" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+        <h3><span class="highlight">Data Structures - TA3</span></h3>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTuBwJAAsbKKXoF3B9IKfaKtnFpF9YtQ8lDePhYAOTTvVEfixBE7GP3T846kl_4H9gsXtUBPU3Y-2nl/pub?embedded=true" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+        <h3><span class="highlight">Data Structures -TA4</span></h3>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTBmWPOpunrbGfqL9KNwnHrJVrgB-lTu3Aph0uUiPAQ0zUjgvaVMZNWoC4D0WOXjw5weIXE-tYozsCw/pub?embedded=true" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
     </div>
 
     <div class="container" id="my-projects">
         <h2>My Projects</h2>
         <p>My First Project :)))</p>
-        <video width="320" height="240" controls>
-            <source src="assets\videos\VideoNiGalario.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+        <iframe src="https://drive.google.com/file/d/1ozmpui-EdplJOjdrTQyKsbiLVaMmH_h5/preview" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+
           <p>I recently completed my first project, which was an advocacy video that my friend asked me to help with.
             It was a very enjoyable experience and it provided a great addition to my portfolio.
             The video focused on the trust we have with our friends, which develops over the years.
@@ -247,10 +265,10 @@
     <div class="sidebar" id="sidebar">
         <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
         <ul>
-            <li><a href="#my-resume">My Resume</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#my-schoolworks">My Schoolworks</a></li>
-            <li><a href="#my-projects">My Projects</a></li>
+            <li><a href="pages\page1\index.html">HOME</a></li>
+            <li><a href="pages\page2\index.html">About Me</a></li>
+            <li><a href="pages\page3\index.html">My Schoolworks</a></li>
+            <li><a href="pages\page4\index.html">My Projects</a></li>
         </ul>
     </div>
 

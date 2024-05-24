@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldous Exequiel S. Damaso's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(143, 10, 10, 1) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .header {
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(55, 10, 143, 1) 100%);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+            color: #fff;
+        }
+
+        .container iframe {
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    overflow: hidden; /* Ensures content inside the rounded corners is clipped */
+}
+
+        .tiles {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .tile {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+            width: 150px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s, background-color 0.3s;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .tile:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .tile img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .tile h3 {
+            margin: 10px 0 0;
+        }
+
+        .details {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            justify-content: center;
+            font-size: 1.1em;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(68, 68, 68, 0.8);
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            transition: width 0.3s, height 0.3s;
+            overflow: hidden;
+            z-index: 1000;
+        }
+
+        .sidebar.open {
+            width: 200px;
+            height: auto;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: none;
+        }
+
+        .sidebar.open ul {
+            display: block;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .sidebar-toggle {
+            cursor: pointer;
+        }
+
+        .container .highlight {
+    background-color: lightblue;
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    padding: 5px; /* Add padding for spacing inside the rounded box */
+}
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>A Jigaboo's Resume</h1>
+    </div>
+
+    <div class="container" id="about-me">
+        <h2>About Me</h2>
+        <p>Hello, my name is Aldous Exequiel S. Damaso. I like to think of myself as the guy who cracks jokes every now
+            and then that really make you laugh your heart out. Currently, I am a college student struggling to keep up with my peers.
+            I feel lost and unsure of what to do with myself. I no longer have fun, I don't vibe with others,
+            and it just doesn't feel like it used to.</p>
+
+        <p>Back when I was in high school and senior high school years, I used to have so much fun with others.
+            I would often get called to the guidance office because of it.
+            I even accidentally made a girl cry once when I bounced a volleyball and it hit her face.
+            I got into fights and made unnecessary choices and decisions, but those choices and decisions made me who I am today.</p>
+
+        <p>Although the current version of myself may not be the best, I acknowledge that I have gained knowledge and
+            wisdom throughout the years. I am proud to stand beside others and proud of myself for how far I've come.
+            I will look forward to a bright future with a not so bright smile but bright nonetheless.
+            Cheers to you all, most excellent, non-dubious, and non-bogus dudes!</p>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
+        <ul>
+            <li><a href="pages\page1\index.html">HOME</a></li>
+            <li><a href="pages\page2\index.html">About Me</a></li>
+            <li><a href="pages\page3\index.html">My Schoolworks</a></li>
+            <li><a href="pages\page4\index.html">My Projects</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
