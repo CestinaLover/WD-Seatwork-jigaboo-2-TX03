@@ -121,10 +121,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-Jimbo
-Gina
-Jub
-
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
@@ -134,9 +130,9 @@ Jub
 
 ## My Projects
 
-| Title             | Purpose                                   | Link                                                       |
-| ----------------- | ----------------------------------------- | ---------------------------------------------------------- |
-| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/ |
-| NONE              | NONE                                      | NONE                                                       |
-| NONE              | NONE                                      | NONE                                                       |
-| NONE              | NONE                                      | NONE                                                       |
+| Title             | Purpose                                   | Link                                                        |
+| ----------------- | ----------------------------------------- | ----------------------------------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/  |
+| My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/ |
+| NONE              | NONE                                      | NONE                                                        |
+| NONE              | NONE                                      | NONE                                                        |
